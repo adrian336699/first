@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#welcomeBtn {
+    padding: 14px 36px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1677ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#welcomeBtn:hover {
+    background-color: #4096ff;
+}
+
+#welcomeText {
+    margin-top: 24px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.hidden {
+    display: none;
+}
